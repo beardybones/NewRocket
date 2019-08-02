@@ -138,9 +138,10 @@ body {
     position: relative;
   }
   
-  .container {
+  .container-fluid {
     background-color:rgb(248, 240, 230);
     width: 100%;
+    font-family: 'Comfortaa', cursive;
   }
   
   /* The navbar */
@@ -169,7 +170,7 @@ body {
     margin-left: 430px;
     width: 40%;
     text-align: center;
-    border: 1px solid #aaa;
+    border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
   }
@@ -178,9 +179,80 @@ body {
     position: absolute;
     top: 10px;
     left: 615px;
+    
   }
   /* END NAV */
   
+  .services {
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 5px;
+    height: 150px;
+
+  }
+
+  .it {
+    position: relative;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    width: 30%;
+    height: 110px;
+  }
+
+  .pr {
+    position: relative;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    width: 30%;
+    height: 110px;
+  }
+
+  .hr {
+    position: relative;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    width: 30%;
+    height: 110px;
+  }
+
+  .serImage {
+    position: absolute;
+    top: 10px;
+    right: 160px;
+  }
+
+  .serText {
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    font-weight: 600;
+    
+  }
+
+  .serInfo {
+    font-size: 10px;
+    position: absolute;
+    top: 80px;
+    
+  }
+
+  .news {
+    background-color: white;
+  }
   
   /* CONNECT W/ ME CSS */
   .connect-header {
