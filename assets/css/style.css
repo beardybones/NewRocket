@@ -36,16 +36,16 @@ body {
   }
   
   /* NAV START */
-  #logo {
-    font-family: 'Roboto', sans-serif;
-  
-    /* Typography */
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-  
-    /* Visual */
-    /* background: #4aaaa5; */
+  /* #logo {
+    height: auto;
+    max-width: 70%;
+  } */
+
+  img {
+    max-width: 100%;
+    height: 60px;
+    margin-left: 100px;
+    margin-right: 50px;
   }
   
   /* override bootstrap hover color and border */
@@ -58,30 +58,60 @@ body {
     border: none;
   }
 
+  .nav-item {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+  }
+
   .nav1 {
     border-top: 5px solid rgb(255, 104, 16);
       
   }
 
-  .navTwo > x {
-    padding-left:30px;
-    padding-right:30px;
+  .firth {
+    color: gray;
   }
 
   .oj {
     color: rgb(255, 104, 16);
   }
 
-  .lang {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+  .nav-request{
+    margin: 10px;
+    padding: 15px;
+  }
+  .nav-cart {
+    margin: 10px;
+    padding: 15px;
   }
 
-  #navOne {
+  .nav-globe {
+    margin: 10px;
+    padding: 0px;
+  }
+
+  .nav-firth {
+    vertical-align: top;
+  }
+
+  .navOne {
     font-size: 12px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+  }
 
+  .navTwo{
+    margin-left:50px;
+    margin-right:50px;
+    
+  }
+
+  .navTwo > x {
+    padding-left:10px;
+    padding-right:20px;
+    font-weight: 550;
+    font-size: 14px;
+    
   }
 
   
@@ -108,11 +138,9 @@ body {
     position: relative;
   }
   
-  /* Position the navbar container inside the image */
   .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
+    background-color:rgb(248, 240, 230);
+    width: 100%;
   }
   
   /* The navbar */
@@ -121,20 +149,35 @@ body {
     background-color: #333;
     opacity: .6;
   }
-  
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
+
+  .welcome {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 0px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Comfortaa', cursive;
   }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+
+  .global {
+    font-weight: 900;
+  }
+
+  .searchBar {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 430px;
+    width: 40%;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  }
+
+  .searchBar .fa-search { 
+    position: absolute;
+    top: 10px;
+    left: 615px;
   }
   /* END NAV */
   
@@ -161,37 +204,7 @@ body {
   /* END CONNECT W/ ME */
   
   
-  /* BEGIN FOOTER */
-  .footer {
-    /* Positioning */
-    position: absolute;
-    bottom: 0;
   
-    /* Box-model */
-    width: 100%;
-    height: 60px;
-  
-    /* Visual */
-    background-color: #666;
-  }
-  
-  .text-muted-footer {
-    /* Box-model */
-    margin-top: 15px;
-  
-    /* Typography */
-    color: #fff;
-  }
-  
-  .two-toned-footer-color {
-    /* Box-model */
-    height: 6px;
-    padding-top: 3px;
-  
-    /* Visual */
-    background-color: #4aaaa5;
-  }
-  /* END FOOTER */
   /* --- END STYLES FOR ALL PAGES --- */
   
   /* --- PAGE-SPECIFIC STYLES --- */
