@@ -125,7 +125,7 @@ body {
   .bg-img {
     /* The image used */
     background-image: url('../imgs/background.jpg');
-    
+    height: 500px;
   
     min-height: 380px;
   
@@ -290,6 +290,37 @@ body {
   .gbsText {
     font-size: 15px;
     font-weight: 600;
+  }
+
+  .mit {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-bottom: 5px solid rgb(255, 104, 16);
+    width: 70%;
+  }
+
+  .engineer {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  .req {
+    margin-left: 25px;
+    font-size: 10px;
+    border-bottom: 1px solid rgb(146, 146, 146);
+    width: 70%;
+  }
+
+  .dynh {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-bottom: 5px solid rgb(255, 104, 16);
+    width: 70%;
   }
 
   /* CONNECT W/ ME CSS */
